@@ -501,6 +501,26 @@ body{
     opacity: .7;
 }
 
+#contacts{
+    display: flex;
+    flex-direction: column;
+
+    height: 40vh;
+    width: 100%;
+
+    background: var(--color-black);
+}
+
+.contact-icon-content h2{
+    margin: 3rem;
+    padding: 1rem;
+
+    font-size: 3rem;
+
+    color: var(--color-white);
+}
+
+
 
 @keyframes written_text{
     100%{
