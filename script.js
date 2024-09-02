@@ -6,5 +6,4 @@ window.addEventListener('scroll', () => {
     } else {
       header.style.background = 'transparent'
     }
-  
   })
