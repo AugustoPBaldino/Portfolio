@@ -379,9 +379,9 @@ body {
     font-size: 1.5rem;
 }
 
-.button-cta {
+.button-cta a{
     display: flex;
-
+    text-decoration: none;
     max-width: 190px;
     margin: 4rem 3rem;
 }
@@ -395,7 +395,7 @@ body {
     font-weight: 1.75rem;
 }
 
-.button-cta button {
+.button-cta a button {
     display: inline-block;
 
     width: 100%;
@@ -412,12 +412,12 @@ body {
     cursor: pointer;
 }
 
-.button-cta button:hover {
+.button-cta a button:hover {
     transition: all .3s ease;
     filter: brightness(.8);
 }
 
-#projects {
+#services {
     height: 100vh;
     width: 100%;
     background: var(--color-black);
@@ -435,28 +435,12 @@ body {
 }
 
 .swiper {
-    height: 500px;
-    width: 100%;
-    max-width: 1020px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-
-    margin-top: 2rem;
-    padding: 0px 20px;
-
-    margin-top: 2rem;
-    padding: 0px 20px;
-}
-
-.swiper {
     width: 100%;
     height: 500px;
     max-width: 1020px;
     margin-top: 2rem;
     padding: 0 20px;
+    flex-direction: row;
 }
 
 .swiper-slide {
@@ -580,7 +564,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    height: 40vh;
+    height: 25vh;
     width: 100%;
 
     background: var(--color-black);
