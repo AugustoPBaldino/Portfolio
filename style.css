@@ -429,9 +429,17 @@ body {
 .projects-title h2 {
     margin: 3rem;
     padding: 1rem;
-
     font-size: 3rem;
     color: var(--color-black);
+    text-align: center;
+}
+
+.projects-title h3 {
+    margin: 3rem;
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--color-black);
+    text-align: center;
 }
 
 .swiper {
@@ -465,10 +473,7 @@ body {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
-
-
 .card-project {
-    width: 320px;
     padding: 25px;
     background: var(--color-white);
     display: flex;
