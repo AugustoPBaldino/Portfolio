@@ -458,22 +458,6 @@ body {
 }
 
 .card-project {
-    width: 320px;
-    padding: 25px;
-    background: var(--color-white);
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card-project:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-}
-
-.card-project {
     padding: 25px;
     background: var(--color-white);
     display: flex;
@@ -504,6 +488,43 @@ body {
     z-index: -1;
 }
 
+.card-project-ages {
+    padding: 25px;
+    background: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-project-ages p {
+    font-size: 2rem;
+}
+
+.card-project p {
+    font-size: 2rem;
+}
+.card-project-ages:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-project-ages::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(135deg, #F47921, #3C5DAB);
+    border-radius: 20px 20px 0 0;
+    z-index: -1;
+}
 
 .img-project {
     display: flex;
@@ -530,22 +551,6 @@ body {
 
 .img-project:hover img {
     transform: scale(1.05);
-}
-
-.card-project span {
-    font-size: 1.6rem;
-    font-weight: 700;
-    margin: 12px 0;
-    color: var(--color-black);
-    text-align: center;
-}
-
-.card-project p {
-    font-size: 2rem;
-    line-height: 1.6;
-    text-align: center;
-    color: var(--color-grey-dark);
-    margin: 12px 0;
 }
 
 .cta-project a {
