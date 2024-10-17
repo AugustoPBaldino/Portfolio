@@ -70,6 +70,17 @@ body {
     font-weight: bold;
 }
 
+.card-project-ages {
+    background: #fff;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .card-project {
     background: #fff;
     display: flex;
@@ -93,18 +104,16 @@ body {
     z-index: -1;
 }
 
-.card-project-ages {
-    padding: 25px;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    border-radius: 10px;
-    position: relative;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.card-project-ages::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(135deg, var(--color-orange), #3C5DAB);
+    border-radius: 10px 10px 0 0;
+    z-index: -1;
 }
 
 .card-project-ages p {
@@ -124,16 +133,9 @@ body {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
-.card-project-ages::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 40%;
-    width: 100%;
-    background: linear-gradient(135deg, var(--color-orange), #3C5DAB);
-    border-radius: 10px 10px 0 0;
-    z-index: -1;
+.card-project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 .img-project {
