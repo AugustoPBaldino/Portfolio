@@ -197,7 +197,7 @@ body {
     .section-subtitle h2 p {
         font-size: 3rem;
         margin-left: 5px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
 
     .box-about h3 {
@@ -275,6 +275,7 @@ body {
     }
 }
 
+
 @media (max-width: 768px) {
     #about {
         flex-direction: column;
@@ -292,9 +293,9 @@ body {
     }
 
     .section-subtitle h2 p {
-        font-size: 2.5rem;
+        font-size: 5.5rem;
         margin-left: 5px;
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     .box-about h3 {
@@ -334,7 +335,7 @@ body {
 @media (max-width: 375px) {
     .section-subtitle h2 p {
         font-size: 2rem;
-        margin-top: 180px;
+        margin-top: 200px;
 
     }
 
