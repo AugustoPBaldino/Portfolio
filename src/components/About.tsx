@@ -1,6 +1,6 @@
 import React from 'react';
-import aboutImage from '../assets/imagem1.webp';
-import curriculum from '../assets/arquivos/Currículo augusto.pdf'; // Ajuste o caminho conforme necessário
+import aboutImage from '../public/assets/imagem1.webp';
+import curriculum from '../public/assets/arquivos/Currículo augusto.pdf';
 import { useTranslation } from 'react-i18next';
 import '../styles/About.css'
 

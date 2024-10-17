@@ -2,10 +2,10 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import projectImage1 from '../assets/Screenshot from 2024-10-09 15-22-16.png'; 
-import projectImage2 from '../assets/IACC_LOGO.png';
-import projectImage3 from '../assets/conversor.png';
-import projectImage4 from '../assets/file_cropped.png';
+import projectImage1 from '../public/assets/Screenshot from 2024-10-09 15-22-16.png'; 
+import projectImage2 from '../public/assets/IACC_LOGO.png';
+import projectImage3 from '../public/assets/conversor.png';
+import projectImage4 from '../public/assets/file_cropped.png';
 
 import  '../styles/Projects.css'
 import 'swiper/css';

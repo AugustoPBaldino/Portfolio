@@ -35,7 +35,7 @@ i18n
           project3Title: "Projeto CRUD + Autenticação. Desenvolvido com Nodejs",
           project3Description: "Aplicação CRUD com autenticação de usuários utilizando NodeJS.",
           project4Title: "Aplicação de previsão do tempo",
-          project4Description: "Aplicação utilizando API de previsão do tempo e geolocalização utilizando Html,Css e Javascript",
+          project4Description: "Aplicação utilizando API de previsão do tempo e geolocalização utilizando Html, Css e Javascript",
           code: "Código",
           project5Title: "Projeto Lista de Filmes",
           project5Description: "Projeto CRUD para gerenciamento de filmes e usuários. Utilizei Prisma como ORM, Postgres para o banco de dados e TypeScript."

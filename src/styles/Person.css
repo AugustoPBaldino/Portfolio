@@ -177,7 +177,7 @@ body {
     flex-direction: column;
     position: relative;
 
-    background-image: url(../assets/imagem2.webp);
+    background-image: url(../public/assets/imagem2.webp);
     background-size: cover;
     background-position: center;
 

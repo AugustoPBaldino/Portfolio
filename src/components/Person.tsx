@@ -1,12 +1,15 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next'; // Importando o hook para tradução
-import profilePhoto from '../assets/foto-perfil-1.jpg';
-import htmlIcon from '../assets/svg/html-5-svgrepo-com.svg';
-import cssIcon from '../assets/svg/css-3-svgrepo-com.svg';
-import javaIcon from '../assets/svg/java-icon.svg';
-import springIcon from '../assets/svg/springio-icon.svg';
-import javascriptIcon from '../assets/svg/icons8-javascript.svg';
-import nodejsIcon from '../assets/svg/nodejs-icon.svg';
+import profilePhoto from '../public/assets/foto-perfil-1.jpg';
+import htmlIcon from '../public/assets/svg/html-5-svgrepo-com.svg';
+import cssIcon from '../public/assets/svg/css-3-svgrepo-com.svg';
+import javaIcon from '../public/assets/svg/java-icon.svg';
+import springIcon from '../public/assets/svg/springio-icon.svg';
+import javascriptIcon from '../public/assets/svg/icons8-javascript.svg';
+import nodejsIcon from '../public/assets/svg/nodejs-icon.svg';
+import githubIcon from '../public/assets/svg/icons8-github.svg'
+import linkedinIcon from '../public/assets/svg/linkedin-icon.svg'
+
 import '../styles/Person.css'
 
 const Person: React.FC = () => {
@@ -74,10 +77,10 @@ const Person: React.FC = () => {
         </div>
         <div className="links">
           <a href="https://github.com/AugustoPBaldino" target="_blank" rel="noopener noreferrer">
-            <img src="/src/assets/svg/icons8-github.svg" alt="Icone Github" />
+            <img src={githubIcon} alt="Icone Github" />
           </a>
           <a href="https://www.linkedin.com/in/augusto-baldino-730ba1248/" target="_blank" rel="noopener noreferrer">
-            <img src="/src/assets/svg/linkedin-icon.svg" alt="Icone Linkedin" />
+            <img src={linkedinIcon} alt="Icone Linkedin" />
           </a>
         </div>
       </div>
