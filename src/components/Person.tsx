@@ -13,18 +13,18 @@ import linkedinIcon from '../public/assets/svg/linkedin-icon.svg'
 import '../styles/Person.css'
 
 const Person: React.FC = () => {
-  const { t } = useTranslation(); // Hook para tradução
+  const { t } = useTranslation(); 
 
   return (
     <section id="person">
       <div className="person-content">
         <div className="person-name">
-          <h1>{t('personHello')}, <span></span></h1> {/* Tradução aplicada */}
-          <h1>{t('personMyName')} <span></span></h1> {/* Tradução aplicada */}
+          <h1>{t('personHello')}, <span></span></h1> 
+          <h1>{t('personMyName')} <span></span></h1>
           <h1>Augusto Baldino <span></span></h1>
         </div>
         <div className="stacks-content">
-          <h3>{t('techs')}:</h3> {/* Tradução aplicada */}
+          <h3>{t('techs')}:</h3> 
           <div className="stacks">
             <ul>
               <li>

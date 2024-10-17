@@ -8,7 +8,7 @@ const Contacts: React.FC = () => {
   return (
     <section id="contacts">
       <div className="contact-icon-content">
-        <h2>{t('contactsTitle')} 📞</h2> {/* Título traduzido */}
+        <h2>{t('contactsTitle')} 📞</h2>
       </div>
       <div className="contact-icons-wrapper">
         <div className="contact-icon-content">
@@ -16,8 +16,8 @@ const Contacts: React.FC = () => {
             <i className="fa-solid fa-map-location-dot"></i>
           </div>
           <div className="contact-info">
-            <span>{t('location')}</span> {/* Texto 'Localização' traduzido */}
-            <p>{t('locationDetail')}</p> {/* Detalhes da localização traduzidos */}
+            <span>{t('location')}</span> 
+            <p>{t('locationDetail')}</p> 
           </div>
         </div>
 
@@ -26,7 +26,7 @@ const Contacts: React.FC = () => {
             <i className="fa-solid fa-envelope-open-text"></i>
           </div>
           <div className="contact-info">
-            <span>{t('email')}</span> {/* Texto 'E-mail' traduzido */}
+            <span>{t('email')}</span> 
             <a href="mailto:augusto.baldino@edu.pucrs.br">augusto.baldino@edu.pucrs.br</a>
           </div>
         </div>

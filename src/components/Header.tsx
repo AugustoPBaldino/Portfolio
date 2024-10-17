@@ -5,23 +5,23 @@ import '../styles/Header.css'
 
 const Header: React.FC = () => {
   const { t, i18n } = useTranslation();
-  const [isOn, setIsOn] = useState(i18n.language === 'en'); // Verifica se o idioma atual é inglês
+  const [isOn, setIsOn] = useState(i18n.language === 'en'); 
 
   const toggleSwitch = () => {
-    const newLang = isOn ? 'pt' : 'en'; // Troca o idioma baseado no estado do switch
+    const newLang = isOn ? 'pt' : 'en';
     i18n.changeLanguage(newLang);
-    setIsOn(!isOn); // Alterna o estado do switch
+    setIsOn(!isOn); 
   };
 
   return (
     <header id="header">
       <a className="header-title" href="/">
-        <h1>{t('title')}</h1> {/* Traduzir título */}
+        <h1>{t('title')}</h1> 
       </a>
       
       <nav className="navbar">
         <ul className="navbar-links">
-          <li><a href="#person">{t('home')}</a></li> {/* Traduzir texto de link */}
+          <li><a href="#person">{t('home')}</a></li> 
           <li><a href="#about">{t('about')}</a></li>
           <li><a href="#projects">{t('projects')}</a></li>
           <li><a href="#contacts">{t('contacts')}</a></li>

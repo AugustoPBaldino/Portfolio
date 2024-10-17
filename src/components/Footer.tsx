@@ -9,8 +9,8 @@ const Footer: React.FC = () => {
   return (
     <section id="footer">
       <div className="container-footer">
-        <h2>{t('footerMadeWith')} ❤️ {t('by')}</h2> {/* Tradução aplicada */}
-        <h3>{t('footerCopyright')}</h3> {/* Tradução aplicada */}
+        <h2>{t('footerMadeWith')} ❤️ {t('by')}</h2> 
+        <h3>{t('footerCopyright')}</h3> 
       </div>
     </section>
   );

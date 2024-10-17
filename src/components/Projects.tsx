@@ -114,8 +114,8 @@ const Projects: React.FC = () => {
                                 <img src={projectImage3} alt="img-Projeto3" />
                             </a>
                         </div>
-                        <span>{t('project5Title')}</span> {/* Tradução aplicada */}
-                        <p>{t('project5Description')}</p> {/* Tradução aplicada */}
+                        <span>{t('project5Title')}</span> 
+                        <p>{t('project5Description')}</p>
                         <div className="cta-project">
                             <a href="https://github.com/AugustoPBaldino/Personal_Blog" target="_blank" rel="noopener noreferrer">
                                 {t('code')}

@@ -2,7 +2,7 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 i18n
-  .use(initReactI18next) // Passa o i18n para o React
+  .use(initReactI18next)
   .init({
     resources: {
       pt: {
@@ -32,8 +32,8 @@ i18n
           aboutSubtitleAges: "Projetos desenvolvidos na Agência Experimental de Engenharia de software (AGES)",
           project1Description: "Plataforma mobile para pessoas com restrições alimentares.",
           project2Description: "Aplicativo para avaliação das competências clínicas dos estudantes do curso de odontologia da PUCRS. Nesse projeto fui responsável por desenvolver a arquitetura do banco de dados Postgres e desenvolvimento Back-end com Spring-Boot",
-          project3Title: "Projeto CRUD + Autenticação. Desenvolvido com Nodejs",
-          project3Description: "Aplicação CRUD com autenticação de usuários utilizando NodeJS.",
+          project3Title: "Projeto CRUD + Autenticação",
+          project3Description: "Aplicação CRUD com autenticação de usuários",
           project4Title: "Aplicação de previsão do tempo",
           project4Description: "Aplicação utilizando API de previsão do tempo e geolocalização utilizando Html, Css e Javascript",
           code: "Código",
@@ -79,10 +79,10 @@ i18n
         },
       },
     },
-    lng: "pt", // idioma padrão
-    fallbackLng: "pt", // idioma de fallback
+    lng: "pt", 
+    fallbackLng: "pt", 
     interpolation: {
-      escapeValue: false, // React já faz a escape
+      escapeValue: false,
     },
   });
 

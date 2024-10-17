@@ -19,10 +19,12 @@
 html {
     scroll-behavior: smooth;
     font-size: 10px;
+    overflow-x: hidden; 
 }
 
 body {
     font-family: "Inter", sans-serif;
+    overflow-x: hidden; 
 }
 
 #person {
@@ -265,6 +267,40 @@ body {
     100% {
         width: 0;
         left: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #person {
+        flex-direction: column; 
+        height: 65vh;
+    }
+
+    .person-content {
+        width: 100%; 
+        height: auto;
+    }
+
+    .person-background {
+        width: 100%; 
+        height: 50vh;
+    }
+
+    .person-content div h1 {
+        font-size: calc(1.5vw + 1.2rem); 
+        line-height: calc(2vw + 1.5rem);
+    }
+
+    .profile-photo {
+        width: 200px;
+    }
+
+    .stacks-content {
+        margin-top: 3rem;
+    }
+
+    .stacks ul li img{
+        width: 20px;
     }
 }
   

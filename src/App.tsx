@@ -5,7 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
-import './lib/i18n'; // Importa a configuração do i18next
+import './lib/i18n';
 
 const App: React.FC = () => {
 
