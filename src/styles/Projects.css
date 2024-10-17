@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-white: #fff;
+    --color-pink: #d12f7a;
+    --color-pink2: #ff1493;
+    --color-blue: #073fcc;
+    --color-black: #0c0c0c;
+    --color-purple: #5f01ac;
+    --color-orange: #F47921;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+#projects {
+    background: rgb(201, 194, 194);
+}
+
+.projects-title h2 {
+    padding: 2rem;
+    font-size: 2.5rem;
+    color: var(--color-black);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.projects-title h3 {
+
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    color: var(--color-black);
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.swiper {
+    width: 60%;
+    height: 500px;
+    max-width: 1020px;
+    margin: auto;
+    display: flex;
+    border: 10px solid rgb(201, 194, 194);
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.swiper-slide span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-project {
+    background: #fff;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-project::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(135deg, var(--color-pink2), var(--color-blue));
+    border-radius: 10px 10px 0 0;
+    z-index: -1;
+}
+
+.card-project-ages {
+    padding: 25px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-project-ages p {
+    font-size: 2rem;
+    color: #333;
+    padding: 20px;
+}
+
+.card-project p {
+   font-size: 2rem;
+    color: #333;
+    padding: 20px;
+}
+
+.card-project-ages:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-project-ages::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(135deg, var(--color-orange), #3C5DAB);
+    border-radius: 10px 10px 0 0;
+    z-index: -1;
+}
+
+.img-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 10 rem;
+    max-width: 280px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 3px solid var(--color-white);
+    margin: 15px auto;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img-project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.img-project:hover img {
+    transform: scale(1.05);
+}
+
+.cta-project a {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 14px;
+    font-size: 1.5rem;
+    color: var(--color-white);
+    background-color: var(--color-purple);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-project a:hover {
+    background-color: var(--color-blue);
+    transform: scale(1.05);
+}
+
+.fa-github{
+    margin-left: 10px;
+}
+
+.fa-square-gitlab{
+    margin-left: 10px;
+}
+
+@keyframes written_text {
+    100% {
+        color: var(--color-white);
+    }
+}
+
+@keyframes written_text_name {
+    100% {
+        color: var(--color-blue);
+    }
+}
+
+@keyframes written_text_box {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}

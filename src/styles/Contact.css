@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-white: #fff;
+    --color-pink: #d12f7a;
+    --color-pink2: #ff1493;
+    --color-blue: #073fcc;
+    --color-black: #0c0c0c;
+    --color-purple: #5f01ac;
+    --color-orange: #ffa500;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+
+    height: 25vh;
+    width: 100%;
+
+    background: var(--color-black);
+
+    color: var(--color-white);
+}
+
+.contact-icon-content h2 {
+    margin: 3rem 3rem 3rem 0rem;
+    padding: 1rem 1rem 1rem 0rem;
+
+    font-size: 3rem;
+    color: var(--color-white);
+}
+
+.contact-icons-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact-icon-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 0rem 3rem;
+    padding: 1rem;
+}
+
+.contact-icon {
+    height: 40px;
+    width: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 2rem;
+
+    background: var(--color-white);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.contact-icon i {
+    font-size: 2rem;
+    color: var(--color-blue);
+}
+
+.contact-info span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contact-info p {
+    margin: .25rem 0rem;
+
+}
+
+.contact-info a {
+    display: block;
+    margin: .25rem 0rem;
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.contact-info a:hover {
+    transition: color .3s ease;
+    color: var(--color-blue);
+}
+
+@keyframes written_text {
+    100% {
+        color: var(--color-white);
+    }
+}
+
+@keyframes written_text_name {
+    100% {
+        color: var(--color-blue);
+    }
+}
+
+@keyframes written_text_box {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
