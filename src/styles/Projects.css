@@ -41,11 +41,16 @@ body {
 .projects-title h3 {
 
     padding: 1.5rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: var(--color-black);
     text-align: center;
     font-style: italic;
     letter-spacing: 1px;
+    width: 65%; 
+    margin: 0 auto; 
+    word-wrap: break-word; 
+
+
 }
 
 .swiper {

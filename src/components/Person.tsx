@@ -43,20 +43,6 @@ const Person: React.FC = () => {
             <ul>
               <li>
                 <div>
-                  <img src={javaIcon} alt="java-icon" />
-                </div>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <div>
-                  <img src={springIcon} alt="spring-icon" />
-                </div>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <div>
                   <img src={javascriptIcon} alt="javascript-icon" />
                 </div>
               </li>
@@ -65,6 +51,20 @@ const Person: React.FC = () => {
               <li>
                 <div>
                   <img src={nodejsIcon} alt="nodejs-icon" />
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <div>
+                <img src={javaIcon} alt="java-icon" />
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <div>
+                <img src={springIcon} alt="spring-icon" />
                 </div>
               </li>
             </ul>
