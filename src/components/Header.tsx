@@ -25,10 +25,10 @@ const Header: React.FC = () => {
           <li><a href="#about">{t('about')}</a></li>
           <li><a href="#projects">{t('projects')}</a></li>
           <li><a href="#contacts">{t('contacts')}</a></li>
-          <div className="switch" data-isOn={isOn} onClick={toggleSwitch}>
+         <li className="container"> <div className="switch" data-isOn={isOn} onClick={toggleSwitch}>
           <motion.div className="handle" layout transition={spring} />
         </div>
-        <p>{isOn ? 'English' : 'Português'}</p>
+        <p>{isOn ? '🇺🇸' : '🇧🇷'}</p></li>
         </ul>
 
       </nav>
