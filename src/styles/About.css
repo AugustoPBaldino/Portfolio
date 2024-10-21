@@ -16,15 +16,6 @@
     --color-orange: #ffa500;
 }
 
-html {
-    scroll-behavior: smooth;
-    font-size: 10px;
-}
-
-body {
-    font-family: "Inter", sans-serif;
-}
-
 #about {
     height: 100vh;
     width: 100%;
@@ -85,6 +76,8 @@ body {
     font-size: 3rem;
     margin-left: 10px;
     margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+
 }
 
 .section-subtitle h2 p:nth-child(2) span {
@@ -102,6 +95,8 @@ body {
     background: var(--color-pink);
     border-radius: 20px;
     padding: 10px 10px;
+    font-family: "Inter", sans-serif;
+
 
 }
 
@@ -118,6 +113,8 @@ body {
 .box-about h4 {
     margin: 1rem 3rem;
     font-size: 1.8rem;
+    font-family: "Inter", sans-serif;
+
 }
 
 .button-cta a{
@@ -133,6 +130,8 @@ body {
     color: var(--color-blue);
     font-size: bold;
     font-weight: 1.75rem;
+    font-family: "Inter", sans-serif;
+
 }
 
 .button-cta a button {

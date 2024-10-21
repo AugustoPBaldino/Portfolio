@@ -16,15 +16,6 @@
     --color-orange: #F47921;
 }
 
-html {
-    scroll-behavior: smooth;
-    font-size: 10px;
-}
-
-body {
-    font-family: "Inter", sans-serif;
-}
-
 #projects {
     background: rgb(201, 194, 194);
 }
@@ -41,7 +32,7 @@ body {
 .projects-title h3 {
 
     padding: 1.5rem;
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: var(--color-black);
     text-align: center;
     font-style: italic;

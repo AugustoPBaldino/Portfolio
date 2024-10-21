@@ -16,17 +16,6 @@
     --color-orange: #ffa500;
 }
 
-html {
-    scroll-behavior: smooth;
-    font-size: 10px;
-    overflow-x: hidden; 
-}
-
-body {
-    font-family: "Inter", sans-serif;
-    overflow-x: hidden; 
-}
-
 #person {
     height: 100vh;
     width: 100%;

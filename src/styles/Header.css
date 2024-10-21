@@ -17,15 +17,6 @@
     --color-green: #2aca38;
 }
 
-html {
-    scroll-behavior: smooth;
-    font-size: 10px;
-}
-
-body {
-    font-family: "Inter", sans-serif;
-}
-
 #header {
     display: flex;
     justify-content: space-between;
@@ -36,6 +27,7 @@ body {
     background: 'transparent';
     transition: all .3s ease-out;
     z-index: 2;
+    background-color: #6e6868bb;
 }
 
 .header-title {
@@ -73,7 +65,7 @@ body {
 .navbar-links li a {
     text-decoration: none;
     color: var(--color-white);
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-weight: 700;
 }
 
