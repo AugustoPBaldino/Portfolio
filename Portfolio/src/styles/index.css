@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variáveis de cores globais */
+:root {
+  /* Backgrounds e bordas */
+  --bg-nav: rgba(15, 23, 42, 0.95); /* bg-slate-900/95 */
+  --bg-nav-scrolled: rgba(15, 23, 42, 0.8); /* bg-slate-900/80 */
+  --border-nav: rgba(39, 39, 42, 1); /* border-slate-800 */
+  --border-nav-scrolled: rgba(39, 39, 42, 0.5); /* border-slate-800/50 */
+  
+  /* Texto */
+  --text-primary: #e2e8f0; /* text-slate-300 */
+    --text-secondary: 148 163 184; /* slate-400 */
+  --text-accent: #22d3ee; /* text-cyan-400 */
+    --surface-muted: 30 41 59; /* slate-800 */
+
+
+  /* Gradientes */
+  --gradient-name: linear-gradient(to right, #22d3ee, #3b82f6); /* from-cyan-400 to-blue-500 */
+  --gradient-btn: linear-gradient(to right, #06b6d4, #2563eb); /* from-cyan-500 to-blue-600 */
+  --gradient-btn-hover: linear-gradient(to right, #0891b2, #1e40af); /* from-cyan-600 to-blue-700 */
+    --gradient-hero: linear-gradient(
+    to bottom,
+    #0f172a, /* slate-900 */
+    #1e293b, /* slate-800 */
+    #0f172a  /* slate-900 */
+  );
+    --gradient-avatar: linear-gradient(
+    to bottom right,
+    #22d3ee, /* cyan-400 */
+    #3b82f6  /* blue-500 */
+  );
+
+    /* =========================
+     SEÇÕES / SUPERFÍCIES
+  ========================== */
+  --bg-section: 30 41 59; /* slate-800 */
+
+  --surface-card: 30 41 59;     /* slate-800 */
+  --surface-card-alt: 51 65 85; /* slate-700 */
+
+  /* =========================
+     BADGES (Skills)
+  ========================== */
+  /* Frontend */
+  --badge-fe-from: 34 211 238; /* cyan-400 */
+  --badge-fe-to: 59 130 246;  /* blue-500 */
+
+  /* Backend */
+  --badge-be-from: 249 115 22; /* orange-500 */
+  --badge-be-to: 239 68 68;   /* red-500 */
+
+  /* Dados */
+  --badge-data-from: 16 185 129; /* emerald-500 */
+  --badge-data-to: 34 197 94;    /* green-500 */
+
+  /* =========================
+     DECORATIVOS
+  ========================== */
+  --decorative-purple: 168 85 247; /* purple-500 */
+
+}
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes bounce-slow {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 0.8s ease-out;
+  }
+  
+  .animate-bounce-slow {
+    animation: bounce-slow 2s ease-in-out infinite;
+  }
+  
+  .delay-500 {
+    animation-delay: 500ms;
+  }
+  
+  .delay-1000 {
+    animation-delay: 1000ms;
+  }
+}
